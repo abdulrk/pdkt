@@ -164,7 +164,7 @@ policies:
 #   •  https://fleetdm.com/docs/configuration/yaml-files#software
 ###########################################################
 software:
-  fleet_maintained_apps:
+  #fleet_maintained_apps:
     # macOS apps
     # …
     # - slug: slack/darwin # Slack for macOS
