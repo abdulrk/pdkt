@@ -1,6 +1,6 @@
 - name: Department - Eng2
   description: All of the Engineering department
-  label_membership_type: host_vitals
+  label_membership_type: host_bosch
   criteria:
     vital: Blr_department
     value: Engineering2
