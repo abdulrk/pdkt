@@ -70,8 +70,7 @@ controls:
   ###########################################################
   apple_settings:
     configuration_profiles:
-      - path:
-        /Users/akapoor03/Documents/GitHub/pdkt/platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig:
+      - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           -Department - Engineering
   windows_settings:
@@ -205,4 +204,3 @@ settings:
       destination_url: https://fleet-dpz1.onrender.com
       host_batch_size: 0
 
-      
