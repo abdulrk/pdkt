@@ -1,12 +1,12 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
-# workstations.yml
+# tions.yml
 #
 # Use this fleet manifest to configure controls, software,
 # automations, policies, and reports that apply only to
 # computing devices (hosts) in this particular fleet.
 #
-# > Note: By convention, the "💻 Workstations" fleet is
+# > Note: By convention, the "💻 tions" fleet is
 # > where all company-owned laptops, PCs, and other
 # > productivity endpoints (i.e. computers) are enrolled.
 #
@@ -14,7 +14,7 @@
 #   • https://fleetdm.com/docs/configuration/yaml-files
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-name: "💻 Workstations"
+name: "💻 tions"
 controls:
   setup_experience:
     ###########################################################
