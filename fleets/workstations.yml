@@ -16,6 +16,9 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 tions"
 controls:
+  macos_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.4"
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -67,8 +70,10 @@ controls:
   ###########################################################
   apple_settings:
     configuration_profiles:
-      - paths: ../platforms/macos/declaration-profiles/*.json
-      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
+      - path:
+      /Users/akapoor03/Documents/GitHub/pdkt/platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+        labels_include_all:
+          -Department - Engineering
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
